@@ -29,7 +29,7 @@ public class IspravnoLogovanje {
 		         usernameField.sendKeys("TestUser");
 
 		         WebElement passwordField = driver.findElement(By.id("id_password")); 
-		         passwordField.sendKeys("StrongPassword123");
+		         passwordField.sendKeys("StrongPassword1234");
 
 		         
 		         WebElement clikbutton = driver.findElement(By.cssSelector(".w-100"));
@@ -39,3 +39,4 @@ public class IspravnoLogovanje {
 		     
 		     }
 		 }
+
